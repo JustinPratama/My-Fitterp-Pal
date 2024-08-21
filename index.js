@@ -13,12 +13,12 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 process.stdin.setEncoding("utf8");
 
-const apiKey = 'DsANKhYUjao9yvEYid5SdNfJtZAIuyctD3b8UzLa';
+const apiKey = '';
 const databaseAndCollection = {db: 'My-Fitterp-Pal', collection: 'foodData'};
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
-const uri = 'mongodb+srv://jeff85:YyxOWVfuqBCCfg0Q@cluster0.nwnhobm.mongodb.net/?retryWrites=true&w=majority';
+const uri = '';
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
